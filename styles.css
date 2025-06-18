@@ -17,12 +17,31 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+
+.form-container h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
     padding: 0 50px 0 50px;
 }
 
-.form-container + h2 {
-    font-weight: 600;
-    margin-bottom: 15px;
+.form-body {
+    margin-top: 50px;
+    border: 1px solid black;
 }
 
-form {}
+form + h2 {
+    margin-bottom: 80px;
+}
+
+.form-section {
+    padding: 0 50px 0 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    
+}
