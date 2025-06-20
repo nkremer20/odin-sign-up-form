@@ -3,13 +3,30 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
+    background-color: whitesmoke;
 }
 
 .container {
     display: flex;
 }
 
-.background-container img {
+.background-container {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 20%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.background{
     height: 100vh;
 }
 
@@ -18,7 +35,6 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    
 }
 
 .message {
@@ -33,7 +49,9 @@ body {
 
 .form-body {
     margin-top: 20px;
-    border: 1px solid black;
+    background-color: white;
+    box-shadow: 3px 3px 10px lightgray;
+    padding: 10px;
 }
 
 .form-heading {

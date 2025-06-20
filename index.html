@@ -9,8 +9,10 @@
 <body>
     <div class="container">
         <div class="background-container">
-            <!-- <img src="/images/odin-logo.png" alt="Odin Logos" class="odin-logo"> -->
             <img src="/images/background_image.jpg" alt="Leaves" class="background">
+            <div class="logo-overlay">
+                <img src="/images/odin-logo.png" alt="Odin Logos" class="odin-logo">
+            </div>
         </div>
         <div class="form-container">
             <h2 class="message">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
@@ -40,11 +42,11 @@
                     </div>
                     <div class="form-section">
                         <label for="pwd">PASSWORD
-                            <input type="password" id="pwd">
+                            <input type="password" id="pwd" required>
                         </label>
                         
                         <label for="confirm-pwd">CONFIRM PASSWORD
-                            <input type="password" id="confirm-pwd">
+                            <input type="password" id="confirm-pwd" required>
                         </label>
                         
                     </div>
