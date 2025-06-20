@@ -32,7 +32,7 @@ body {
 }
 
 .form-body {
-    margin-top: 50px;
+    margin-top: 20px;
     border: 1px solid black;
 }
 
@@ -55,9 +55,19 @@ input {
     height: 25px;
     width: 300px;
     border-radius: 5px;
-    border: 1px solid black;
     padding-left: 10px;
     font-size: 18px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    box-shadow: 3px 3px 5px lightgray;
+    outline: none;
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1.5px solid red;
 }
 
 button {
@@ -70,7 +80,17 @@ button {
     border-radius: 8px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 p {
     margin: 0;
     padding-left: 50px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
